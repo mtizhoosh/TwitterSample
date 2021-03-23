@@ -1,0 +1,35 @@
+<h1 id="tableLabel">Twitter Sample Stream</h1>
+
+<p>This component demonstrates fetching data from the twitter server.</p>
+<h6 *ngIf="errorMessage" style="background-color:coral" >{{errorMessage}}</h6>
+
+<p *ngIf="!twitData"><em>Loading...</em></p>
+
+<!--<div *ngIf="this.polledBitcoin$ | async as twitData">-->
+<div *ngIf="twitData">
+  <button type="button" class="btn btn-primary" (click)="refreshStat()">Refresh Twitter Stats</button>
+  <h2>Report date: {{twitData._now}}</h2>
+  <h3>Total twitts:{{twitData.total}}</h3>
+  <h4>Average twitts per minute:{{twitData.averagePerMinute}}</h4>
+</div>
+<div style="height:500px; overflow:auto;">
+
+  <table class='table table-striped' aria-labelledby="tableLabel">
+    <thead>
+      <tr>
+        <th>Text</th>
+        <th>Created Time</th>
+        <th>Author Id</th>
+        <th>Twitt Id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let td of twitData.twitts">
+        <td>{{ td.text }}</td>
+        <td>{{ td.created_at | date:'d-MMM-yyyy HH:mm:ss' }}</td>
+        <td>{{ td.author_id }}</td>
+        <td>{{ td.id }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
