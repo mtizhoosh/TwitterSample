@@ -1,46 +1,49 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Text.Json;
-using System.Threading.Tasks;
 using Twitter_Statistics.Models;
 using Twitter_Statistics.Services;
 
 namespace Twitter_Statistics.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
-    [Produces("application/json")]
+    [Route("api/[controller]")]
     public class TwitterFeedController : ControllerBase
     {
-        private ITwitterService service;
+        private readonly ITwiterService _service;
         private readonly ILogger<TwitterFeedController> _logger;
-        private readonly IConfiguration _twitterSettings;
 
-
-        public TwitterFeedController(IConfiguration twitterSettings, ILogger<TwitterFeedController> logger, ITwitterService service)
+        public TwitterFeedController(ILogger<TwitterFeedController> logger, ITwiterService service)
         {
-            this._twitterSettings = twitterSettings;
             this._logger = logger;
-            this.service = service;
+            this._service = service;
         }
 
 
+        /// <summary>
+        /// Return list of twitts and calculated statistics
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public IActionResult Get()
-        {           
-            TwittStatistics MockTwittes = service.GetTwittStatistics();
+        //public ActionResult<TwittStatistics> GetTwittStatistics()
+        public ActionResult<TwittStatistics> Get()
+        {
+            try
+            {
+                TwittStatistics MockTwittes = this._service.GetTwittStatistics();
 
-            if (MockTwittes == null)  return new NoContentResult();
+                if (MockTwittes == null) return new NoContentResult();
 
-            return new JsonResult(MockTwittes);
-        }
-
-     
+                return Ok(MockTwittes);
+            }
+            catch (Exception ex)
+            {
+                string error = "Failed to get twitter sample feed.";
+                this._logger.LogError(ex, error);
+                return BadRequest(error);
+            }
+           
+        }     
     }
 }
 

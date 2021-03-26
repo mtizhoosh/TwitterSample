@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System.IO;
+using System.Reflection;
 using Twitter_Statistics.Services;
 
 namespace Twitter_Statistics
@@ -23,16 +24,18 @@ namespace Twitter_Statistics
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers(); // .AddControllersWithViews();
+          
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
             });
 
-            services.AddHttpClient<ITwitterService, TwitterApiService>();
+            services.AddHttpClient<ITwiterService, TwitterApiService>();
 
-            services.Configure<AppSettings>(Configuration.GetSection(AppSettings.MockData));
+            services.Configure<AppSettings>(Configuration.GetSection(AppSettings.APP_CONFIG));
+
+            services.AddControllers().AddXmlSerializerFormatters();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,7 +53,9 @@ namespace Twitter_Statistics
                 app.UseExceptionHandler("/Error");
             }
 
-            app.UseStaticFiles();
+            // combine default and static file serving.
+            app.UseFileServer(enableDirectoryBrowsing: false);
+            app.UseHttpsRedirection();
             if (!env.IsDevelopment())
             {
                 app.UseSpaStaticFiles();
@@ -67,9 +72,6 @@ namespace Twitter_Statistics
 
             app.UseSpa(spa =>
             {
-                // To learn more about options for serving an Angular SPA from ASP.NET Core,
-                // see https://go.microsoft.com/fwlink/?linkid=864501
-
                 spa.Options.SourcePath = "ClientApp";
 
                 if (env.IsDevelopment())

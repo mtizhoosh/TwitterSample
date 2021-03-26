@@ -46,77 +46,34 @@ export class FetchDataComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
 
     
-    // One time http get
-    //this.sampleTwitts$.subscribe(result => {
-    //  this.twitData = result;
-    //});
-
-    
     // one time http get by button click event
     this.twittRefresh$ = this.userRefresh.pipe(
       concatMap(_ => this.feedService.sampleTwittes$),
+      tap(t => console.log(JSON.stringify(t))),
       map(f => this.twitData = f)
     );
 
     this.twittRefresh$.subscribe(d => this.twitData = d);
 
-    // polling by timer
-    //this.twittFeeds$ = timer(0, 5000).pipe(
-    //  concatMap(_ => this.feedService.sampleTwittes$),
-    //  tap(t => console.log('Twitter feeds (from component) \n' + JSON.stringify(t))),
-    //  map(t => this.twitData = t)
-    //);
-
- 
+    
     this.twittFeeds$ = timer(0, 5000).pipe(
       concatMap(_ => this.feedService.sampleTwittes$),
       tap(t => console.log('Twitter feeds (from component) \n' + JSON.stringify(t))),
       map(t => new TwittStatistics(t))
     );
-
     
-
-    //const refreshTwitts$ = of('').pipe(
-    //  delay(5000),
-    //  tap(_ => this.load$.next('')),
-    //  skip(1)
-    //);
-
-   // const poll$ = concat(this.feedService.sampleTwittes$, refreshTwitts$);
-
-    //this.twittFeeds$ = this.load$.pipe(
-    //  concatMap(_ => poll$),
-    //  map(t => this.twittFeeds$ = t)
-    //);
-
-
-    this.subscribtion = this.twittFeeds$.subscribe(result => {
-      this.twitData = result;
-    },
+    this.subscribtion = this.twittFeeds$.subscribe(result => 
+      this.twitData = result,
       err => this.errorMessage = 'Recieved an error from ',
       () => this.subscribtion.unsubscribe()
     );
-
-
-    //this.GetFeeds();
-    //setInterval(() => {
-    //  this.GetFeeds();
-    //}, 5000)
-
-  
+      
   }
 
   ngOnDestroy(): void {
     this.subscribtion.unsubscribe();
   }
 
-
-
-  private GetFeeds() {
-    this.sampleTwitts$.subscribe(result => {
-      this.twitData = result;
-    });
-  }
 
 }
 

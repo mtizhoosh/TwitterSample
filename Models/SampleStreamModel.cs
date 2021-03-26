@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Text;
 
 namespace Twitter_Statistics.Models
 {
     public class TwittStatistics
     {
-        public TwitInfo[] twitts { get; set; }
-        public int total { get; set; }
-        public double averagePerMinute { get; set; }
+        public List<TwitInfo> Twitts { get; set; }
+        public int Total { get; set; } = 0;
+        public double AveragePerMinute { get; set; } = 0;
     }
     public class TwitInfo
     {
@@ -21,14 +18,15 @@ namespace Twitter_Statistics.Models
             this.author_id = author_id;
             this.id = id;
         }
-        public string id { get; set; }
-        public string text { get; set; }
-        public string created_at { get; set; }
-        public string author_id { get; set; }
+
+       public string id { get; set; }
+       public string text { get; set; }
+       public string created_at { get; set; }
+       public string author_id { get; set; }
 
     }
 
-        public class SampledStreamModel
+    public class SampledStreamModel
     {
         public Data data { get; set; }
     }

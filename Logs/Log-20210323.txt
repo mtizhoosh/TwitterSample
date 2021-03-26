@@ -1,0 +1,383 @@
+2021-03-23T11:02:25.1065454-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T11:02:25.1521913-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T11:02:25.1572487-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T11:02:37.8983399-04:00  [ERR] An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+ (ab5cbeb5)
+2021-03-23T11:02:37.9014698-04:00  [ERR] Require stack:
+ (9b31393d)
+2021-03-23T11:02:37.9052505-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+ (b2bc8247)
+2021-03-23T11:02:37.9102805-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\index.js
+ (4a4a40e5)
+2021-03-23T11:02:37.9131860-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\architect-command.js
+ (cecd3a35)
+2021-03-23T11:02:37.9160391-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\commands\serve-impl.js
+ (f944e13d)
+2021-03-23T11:02:37.9189907-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\export-ref.js
+ (c770cf88)
+2021-03-23T11:02:37.9218662-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\index.js
+ (ea927592)
+2021-03-23T11:02:37.9279601-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\utilities\json-schema.js
+ (92bcb1d9)
+2021-03-23T11:02:37.9314458-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\command-runner.js
+ (12227573)
+2021-03-23T11:02:37.9341991-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\lib\cli\index.js
+ (a197c81a)
+2021-03-23T11:02:37.9377797-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\lib\init.js
+ (fb855e3e)
+2021-03-23T11:02:37.9408003-04:00  [ERR] - C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+ (3ebe0fe5)
+2021-03-23T11:02:37.9467487-04:00  [ERR] See "C:\Users\mtizh\AppData\Local\Temp\ng-eud0yt\angular-errors.log" for further details.
+ (a70f20cf)
+2021-03-23T11:02:37.9512496-04:00  [ERR] npm ERR! code ELIFECYCLE
+ (76992f4c)
+2021-03-23T11:02:37.9542149-04:00  [ERR] npm ERR! syscall spawn
+ (0c4cf553)
+2021-03-23T11:02:37.9570935-04:00  [ERR] npm ERR! file C:\WINDOWS\system32\cmd.exe
+ (a9c86e99)
+2021-03-23T11:02:37.9625069-04:00  [ERR] npm ERR! errno ENOENT
+ (9b8b38b2)
+2021-03-23T11:02:37.9652243-04:00  [ERR] npm ERR! twitter_statistics@0.0.0 start: `ng serve "--port" "56205"`
+ (eb906165)
+2021-03-23T11:02:37.9685753-04:00  [ERR] npm ERR! spawn ENOENT
+ (4b168131)
+2021-03-23T11:02:37.9718655-04:00  [ERR] npm ERR! 
+ (8908d96b)
+2021-03-23T11:02:37.9764010-04:00  [ERR] npm ERR! Failed at the twitter_statistics@0.0.0 start script.
+ (3a65d9d9)
+2021-03-23T11:02:37.9797131-04:00  [ERR] npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+ (c0d38988)
+2021-03-23T11:02:37.9823734-04:00  [ERR] npm ERR! A complete log of this run can be found in:
+ (e9dc2fc2)
+2021-03-23T11:02:38.0054459-04:00  [ERR] npm ERR!     C:\Users\mtizh\AppData\Roaming\npm-cache\_logs\2021-03-23T15_02_37_819Z-debug.log
+ (fe1e697c)
+2021-03-23T11:02:38.4371313-04:00 800000fa-0001-e800-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (The npm script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+
+Require stack:
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\index.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\architect-command.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\commands\serve-impl.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\export-ref.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\index.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\utilities\json-schema.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\command-runner.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\lib\cli\index.js
+
+))
+ ---> System.AggregateException: One or more errors occurred. (The npm script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+
+Require stack:
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\index.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\architect-command.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\commands\serve-impl.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\export-ref.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\index.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\utilities\json-schema.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\command-runner.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\lib\cli\index.js
+
+)
+ ---> System.InvalidOperationException: The npm script 'start' exited without indicating that the Angular CLI was listening for requests. The error output was: An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+
+Require stack:
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\node-modules-architect-host.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\architect\node\index.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\architect-command.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\commands\serve-impl.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\export-ref.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\node_modules\@angular-devkit\schematics\tools\index.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\utilities\json-schema.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\models\command-runner.js
+
+- C:\Users\mtizh\AppData\Roaming\npm\node_modules\@angular\cli\lib\cli\index.js
+
+
+ ---> System.IO.EndOfStreamException: Attempted to read past the end of the stream.
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String scriptName, String pkgManagerCommand, Int32 portNumber, ILogger logger, DiagnosticSource diagnosticSource, CancellationToken applicationStoppingToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.StartAngularCliServerAsync(String sourcePath, String scriptName, String pkgManagerCommand, Int32 portNumber, ILogger logger, DiagnosticSource diagnosticSource, CancellationToken applicationStoppingToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.AngularCli.AngularCliMiddleware.<>c.<Attach>b__2_0(Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Microsoft.AspNetCore.SpaServices.Extensions.Util.TaskTimeoutExtensions.WithTimeout[T](Task`1 task, TimeSpan timeoutDelay, String message)
+   at Microsoft.AspNetCore.SpaServices.Extensions.Proxy.SpaProxy.PerformProxyRequest(HttpContext context, HttpClient httpClient, Task`1 baseUriTask, CancellationToken applicationStoppingToken, Boolean proxy404s)
+   at Microsoft.AspNetCore.Builder.SpaProxyingExtensions.<>c__DisplayClass2_0.<<UseProxyToSpaDevelopmentServer>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-23T11:09:01.3655209-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T11:09:01.3840097-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T11:09:01.3869389-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T11:14:20.8951908-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T11:14:20.9521138-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T11:14:20.9628702-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T14:35:01.8966038-04:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-03-23T14:35:01.9122040-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T14:35:01.9145946-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T14:35:01.9166514-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T18:42:47.1951222-04:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-03-23T18:42:47.2326353-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T18:42:47.2425564-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T18:42:47.2491891-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T18:49:35.9858823-04:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-03-23T18:49:36.0044916-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T18:49:36.0173870-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T18:49:36.0298949-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T18:55:59.5690590-04:00  [INF] Now listening on: "http://localhost:5000" (d826f4b8)
+2021-03-23T18:55:59.5960472-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T18:55:59.5995637-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T18:55:59.6030280-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T18:56:24.0537390-04:00  [ERR] ERROR in app/fetch-data/fetch-data.component.ts:17:40 - error TS2322: Type '{ twitts: undefined[]; total: number; averagePerMinute: number; _now: Moment; }' is not assignable to type 'TwittStatistics'.
+ (597ae263)
+2021-03-23T18:56:24.0623286-04:00  [ERR]   Object literal may only specify known properties, but 'twitts' does not exist in type 'TwittStatistics'. Did you mean to write 'Twitts'?
+ (31836afc)
+2021-03-23T18:56:24.0667967-04:00  [ERR] 17   public twitData: TwittStatistics = { twitts:[], total:0, averagePerMinute:0, _now:moment()};
+ (200a3452)
+2021-03-23T18:56:24.0713352-04:00  [ERR]                                           ~~~~~~~~~
+ (633cac4a)
+2021-03-23T19:08:48.3944959-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T19:08:48.4113934-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T19:08:48.4165073-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T19:11:19.5316291-04:00  [ERR]     ERROR in src/app/app.module.ts(11,36): error TS2307: Cannot find module './fetch-data/fetch-data.component'.
+ (e08e0eb5)
+2021-03-23T19:16:25.3591077-04:00 800013f6-0003-f100-b63f-84710c7967bb [ERR] Test file not found.Object reference not set to an instance of an object. (b6883b22)
+2021-03-23T19:20:01.9277343-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T19:20:01.9460128-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T19:20:01.9495777-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T19:26:30.1275267-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T19:26:30.1452983-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T19:26:30.1504393-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T20:53:56.1496006-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T20:53:56.1669839-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T20:53:56.1694453-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:23:32.5103460-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:23:32.6005315-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:23:32.6301930-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:34:46.8263389-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:34:46.8504695-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:34:46.8544713-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:44:11.1954564-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:44:11.2136741-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:44:11.2166073-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:51:19.2507131-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:51:19.2685688-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:51:19.2725891-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:53:29.7115209-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:53:29.7318464-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:53:29.7397252-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:54:12.2642724-04:00 800002bd-0001-f400-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.Serialization.InvalidDataContractException: Type 'Twitter_Statistics.Models.TwitInfo' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.XmlObjectSerializerContext.GetDataContract(Int32 id, RuntimeTypeHandle typeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfTwitInfoToXml(XmlWriterDelegator , Object , XmlObjectSerializerWriteContext , CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerializeReference(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteTwittStatisticsToXml(XmlWriterDelegator , Object , XmlObjectSerializerWriteContext , ClassDataContract )
+   at System.Runtime.Serialization.ClassDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer, Object graph)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-23T21:56:42.0676101-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:56:42.0897958-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:56:42.0935619-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:57:22.7694755-04:00 80000021-0003-eb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.Serialization.InvalidDataContractException: Type 'Twitter_Statistics.Models.TwitInfo' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.XmlObjectSerializerContext.GetDataContract(Int32 id, RuntimeTypeHandle typeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfTwitInfoToXml(XmlWriterDelegator , Object , XmlObjectSerializerWriteContext , CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerializeReference(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteTwittStatisticsToXml(XmlWriterDelegator , Object , XmlObjectSerializerWriteContext , ClassDataContract )
+   at System.Runtime.Serialization.ClassDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer, Object graph)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-23T21:57:35.2181808-04:00 80000022-0003-eb00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.Runtime.Serialization.InvalidDataContractException: Type 'Twitter_Statistics.Models.TwitInfo' cannot be serialized. Consider marking it with the DataContractAttribute attribute, and marking all of its members you want serialized with the DataMemberAttribute attribute. Alternatively, you can ensure that the type is public and has a parameterless constructor - all public members of the type will then be serialized, and no attributes will be required.
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.ThrowInvalidDataContractException(String message, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.CreateDataContract(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.DataContract.DataContractCriticalHelper.GetDataContractSkipValidation(Int32 id, RuntimeTypeHandle typeHandle, Type type)
+   at System.Runtime.Serialization.XmlObjectSerializerContext.GetDataContract(Int32 id, RuntimeTypeHandle typeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteArrayOfTwitInfoToXml(XmlWriterDelegator , Object , XmlObjectSerializerWriteContext , CollectionDataContract )
+   at System.Runtime.Serialization.CollectionDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerialize(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.InternalSerializeReference(XmlWriterDelegator xmlWriter, Object obj, Boolean isDeclaredType, Boolean writeXsiType, Int32 declaredTypeID, RuntimeTypeHandle declaredTypeHandle)
+   at WriteTwittStatisticsToXml(XmlWriterDelegator , Object , XmlObjectSerializerWriteContext , ClassDataContract )
+   at System.Runtime.Serialization.ClassDataContract.WriteXmlValue(XmlWriterDelegator xmlWriter, Object obj, XmlObjectSerializerWriteContext context)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.WriteDataContractValue(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.XmlObjectSerializerWriteContext.SerializeWithoutXsiType(DataContract dataContract, XmlWriterDelegator xmlWriter, Object obj, RuntimeTypeHandle declaredTypeHandle)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObjectContent(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.InternalWriteObject(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.XmlObjectSerializer.WriteObjectHandleExceptions(XmlWriterDelegator writer, Object graph, DataContractResolver dataContractResolver)
+   at System.Runtime.Serialization.DataContractSerializer.WriteObject(XmlWriter writer, Object graph)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-03-23T21:58:31.6236731-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T21:58:31.6416092-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T21:58:31.6475737-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T21:59:29.5504288-04:00 80000024-0003-eb00-b63f-84710c7967bb [WRN] No output formatter was found for content types '["application/xml", "application/xml"]' to write the response. (2a6043fb)
+2021-03-23T21:59:38.4600386-04:00 80000025-0003-eb00-b63f-84710c7967bb [WRN] No output formatter was found for content types '["application/xml", "application/xml"]' to write the response. (2a6043fb)
+2021-03-23T21:59:49.0687104-04:00 80000026-0003-eb00-b63f-84710c7967bb [WRN] No output formatter was found for content types '["application/xml", "application/xml"]' to write the response. (2a6043fb)
+2021-03-23T21:59:52.8518088-04:00 800005f6-0003-e900-b63f-84710c7967bb [WRN] No output formatter was found for content types '["application/xml", "application/xml"]' to write the response. (2a6043fb)
+2021-03-23T22:00:39.8279322-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T22:00:39.8449081-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T22:00:39.8477535-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T22:17:02.1003116-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T22:17:02.1180202-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T22:17:02.1209774-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T22:19:12.1901135-04:00 800002ce-0001-f400-b63f-84710c7967bb [WRN] An error occurred while trying to create an XmlSerializer for the type '"Twitter_Statistics.Models.TwittStatistics"'. (3e7ed175)
+System.InvalidOperationException: There was an error reflecting type 'Twitter_Statistics.Models.TwittStatistics'.
+ ---> System.InvalidOperationException: Cannot serialize member 'Twitter_Statistics.Models.TwittStatistics.Twitts' of type 'System.Collections.Generic.List`1[[Twitter_Statistics.Models.TwitInfo, Twitter_Statistics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.InvalidOperationException: Twitter_Statistics.Models.TwitInfo cannot be serialized because it does not have a parameterless constructor.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2021-03-23T22:31:40.5327708-04:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-03-23T22:31:40.5525199-04:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-03-23T22:31:40.5666829-04:00  [INF] Content root path: "C:\Sandbox\Twitter_Statistics" (b5d60022)
+2021-03-23T22:33:47.1498738-04:00 800002da-0000-ed00-b63f-84710c7967bb [WRN] An error occurred while trying to create an XmlSerializer for the type '"Twitter_Statistics.Models.TwittStatistics"'. (3e7ed175)
+System.InvalidOperationException: There was an error reflecting type 'Twitter_Statistics.Models.TwittStatistics'.
+ ---> System.InvalidOperationException: Cannot serialize member 'Twitter_Statistics.Models.TwittStatistics.Twitts' of type 'System.Collections.Generic.List`1[[Twitter_Statistics.Models.TwitInfo, Twitter_Statistics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.InvalidOperationException: Twitter_Statistics.Models.TwitInfo cannot be serialized because it does not have a parameterless constructor.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2021-03-23T22:33:55.1479332-04:00 800002db-0000-ed00-b63f-84710c7967bb [WRN] An error occurred while trying to create an XmlSerializer for the type '"Twitter_Statistics.Models.TwittStatistics"'. (3e7ed175)
+System.InvalidOperationException: There was an error reflecting type 'Twitter_Statistics.Models.TwittStatistics'.
+ ---> System.InvalidOperationException: Cannot serialize member 'Twitter_Statistics.Models.TwittStatistics.Twitts' of type 'System.Collections.Generic.List`1[[Twitter_Statistics.Models.TwitInfo, Twitter_Statistics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]', see inner exception for more details.
+ ---> System.InvalidOperationException: Twitter_Statistics.Models.TwitInfo cannot be serialized because it does not have a parameterless constructor.
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.CheckSupportedMember(TypeDesc typeDesc, MemberInfo member, Type type)
+   at System.Xml.Serialization.StructModel.GetPropertyModel(PropertyInfo propertyInfo)
+   at System.Xml.Serialization.StructModel.GetFieldModel(MemberInfo memberInfo)
+   at System.Xml.Serialization.XmlReflectionImporter.InitializeStructMembers(StructMapping mapping, StructModel model, Boolean openModel, String typeName, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportStructLikeMapping(StructModel model, String ns, Boolean openModel, XmlAttributes a, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   --- End of inner exception stack trace ---
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(TypeModel model, String ns, ImportContext context, String dataType, XmlAttributes a, Boolean repeats, Boolean openModel, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportElement(TypeModel model, XmlRootAttribute root, String defaultNamespace, RecursionLimiter limiter)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)

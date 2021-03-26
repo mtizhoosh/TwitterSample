@@ -5,7 +5,6 @@
 
 <p *ngIf="!twitData"><em>Loading...</em></p>
 
-<!--<div *ngIf="this.polledBitcoin$ | async as twitData">-->
 <div *ngIf="twitData">
   <button type="button" class="btn btn-primary" (click)="refreshStat()">Refresh Twitter Stats</button>
   <h2>Report date: {{twitData._now}}</h2>

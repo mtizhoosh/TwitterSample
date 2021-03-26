@@ -13,7 +13,7 @@ export class FetchTwittsService {
 
   private twittUrl = '';
   constructor(private http: HttpClient, @Inject('BASE_URL') private baseUrl: string) {
-    this.twittUrl = baseUrl + 'TwitterFeed';
+    this.twittUrl = baseUrl + 'api/TwitterFeed';
     this.sampleTwittes$ = this.http.get<TwittStatistics>(this.twittUrl).pipe(
       tap(t => console.log('From service:twitt feeds \n' + JSON.stringify(t))),
       catchError(this.handleError)

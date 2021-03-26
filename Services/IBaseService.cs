@@ -6,7 +6,15 @@ using Twitter_Statistics.Models;
 
 namespace Twitter_Statistics.Services
 {
-    public interface ITwiterService
+    public enum TwitProvider
+    {
+        None,
+        File,
+        TwitterAPI = 2,
+        Database = 3
+    }
+
+    public interface IBaseService
     {
         TwittStatistics GetTwittStatistics();
     }

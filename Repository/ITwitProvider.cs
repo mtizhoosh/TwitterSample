@@ -4,10 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Twitter_Statistics.Models;
 
-namespace Twitter_Statistics.Services
+namespace Twitter_Statistics.Repository
 {
-    public interface ITwiterService
+    public interface ITwitProvider
     {
-        TwittStatistics GetTwittStatistics();
+        Task<List<TwitInfo>> GetSampleTwitts();
     }
 }

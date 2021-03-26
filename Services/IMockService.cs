@@ -6,8 +6,8 @@ using Twitter_Statistics.Models;
 
 namespace Twitter_Statistics.Services
 {
-    public interface ITwiterService
+    public interface ITwitterFileService 
     {
-        TwittStatistics GetTwittStatistics();
+        TwittStatistics GetFileData();
     }
 }
